@@ -1,5 +1,9 @@
 # 🤖 Bot WhatsApp com IA (Dialogflow) 🚀
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
+![License](https://img.shields.io/badge/License-Privado-lightgrey)
+
 Este projeto é um **bot automatizado para WhatsApp**, desenvolvido em Python usando:
 
 - **Flask** (para criar a API)
@@ -11,6 +15,10 @@ Este projeto é um **bot automatizado para WhatsApp**, desenvolvido em Python us
 - Atende automaticamente clientes pelo WhatsApp
 - Responde a perguntas frequentes (horários, localização, etc.)
 - Usa inteligência artificial para interpretar e responder mensagens
+
+## 🖼️ Exemplo do Bot em Ação
+
+![Bot em ação](screenshot.png)
 
 ---
 
