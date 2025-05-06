@@ -69,13 +69,3 @@ Franc Washington Vilela
 ⚠️ Atenção
 Este projeto é para fins educacionais e pode conter credenciais sensíveis. Use com cautela em produção.
 
----
-
-# ✅ **Como fazer no Bloco de Notas:**
-
-1️⃣ Abra o Bloco de Notas.  
-2️⃣ Cole **o texto ACIMA (do jeito que está formatado aqui).**  
-3️⃣ Vá em **Arquivo ➔ Salvar Como…**  
-4️⃣ Nomeie como: `README.md`  
-5️⃣ Em “Tipo” ➔ selecione **“Todos os Arquivos”**  
-6️⃣ Salve na mesma pasta do seu projeto.
