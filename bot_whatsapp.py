@@ -8,6 +8,10 @@ logging.basicConfig(level=logging.DEBUG)
 
 app = Flask(__name__)
 
+import sys
+app.logger.addHandler(logging.StreamHandler(sys.stdout))
+app.logger.setLevel(logging.DEBUG)
+
 import json
 from google.oauth2 import service_account
 
