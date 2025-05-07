@@ -3,6 +3,8 @@ from twilio.twiml.messaging_response import MessagingResponse
 from google.cloud import dialogflow_v2 as dialogflow
 import os
 from google.cloud.dialogflow_v2 import types
+import logging
+logging.basicConfig(level=logging.DEBUG)
 
 app = Flask(__name__)
 
@@ -36,7 +38,7 @@ def whatsapp_reply():
         if resposta.strip() == "":
             resposta = 'Desculpe, não entendi sua mensagem. Um atendente vai te ajudar em breve.'
     except Exception as e:
-        print(f"Erro: {e}")
+        logging.error(f"Erro ao processar: {e}")
         resposta = 'Houve um problema ao processar sua mensagem. Tente novamente mais tarde.'
 
     msg.body(resposta)
