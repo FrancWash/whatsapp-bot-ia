@@ -28,7 +28,10 @@ DIALOGFLOW_LANGUAGE_CODE = 'pt-BR'
 SESSION_ID = 'current-user-id'
 
 def detect_intent_texts(project_id, session_id, text, language_code):
-    session_client = dialogflow.SessionsClient(credentials=credentials)
+    session_client = dialogflow.SessionsClient(
+    credentials=credentials,
+    client_options={"api_endpoint": "dialogflow.googleapis.com:443"}
+)
     session = session_client.session_path(project_id, session_id)
     text_input = types.TextInput(text=text, language_code=language_code)
     query_input = types.QueryInput(text=text_input)
