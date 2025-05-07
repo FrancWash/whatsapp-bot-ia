@@ -18,7 +18,10 @@ from google.oauth2 import service_account
 # Lê o JSON da variável de ambiente
 credentials_info = json.loads(os.environ["GOOGLE_APPLICATION_CREDENTIALS_JSON"])
 print("### DEBUG: Credenciais carregadas com sucesso.")
-credentials = service_account.Credentials.from_service_account_info(credentials_info)
+credentials = service_account.Credentials.from_service_account_info(
+    credentials_info,
+    scopes=["https://www.googleapis.com/auth/cloud-platform"]
+)
 
 DIALOGFLOW_PROJECT_ID = 'seu-project-id'  # coloque aqui o ID do seu projeto Dialogflow
 DIALOGFLOW_LANGUAGE_CODE = 'pt-BR'
