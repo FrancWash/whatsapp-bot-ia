@@ -17,6 +17,7 @@ from google.oauth2 import service_account
 
 # Lê o JSON da variável de ambiente
 credentials_info = json.loads(os.environ["GOOGLE_APPLICATION_CREDENTIALS_JSON"])
+print("### DEBUG: Credenciais carregadas com sucesso.")
 credentials = service_account.Credentials.from_service_account_info(credentials_info)
 
 DIALOGFLOW_PROJECT_ID = 'seu-project-id'  # coloque aqui o ID do seu projeto Dialogflow
@@ -42,7 +43,7 @@ def whatsapp_reply():
         if resposta.strip() == "":
             resposta = 'Desculpe, não entendi sua mensagem. Um atendente vai te ajudar em breve.'
     except Exception as e:
-        logging.error(f"Erro ao processar: {e}")
+        print(f"### ERRO AO PROCESSAR: {e}")
         resposta = 'Houve um problema ao processar sua mensagem. Tente novamente mais tarde.'
 
     msg.body(resposta)
