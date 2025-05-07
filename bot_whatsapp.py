@@ -5,15 +5,19 @@ import os
 
 app = Flask(__name__)
 
-# 👉 Aqui você coloca o NOME EXATO do seu arquivo JSON 👇
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "dialogflow-chave.json"  # substitua com o nome certo do arquivo JSON
+import json
+from google.oauth2 import service_account
+
+# Lê o JSON da variável de ambiente
+credentials_info = json.loads(os.environ["GOOGLE_APPLICATION_CREDENTIALS_JSON"])
+credentials = service_account.Credentials.from_service_account_info(credentials_info)
 
 DIALOGFLOW_PROJECT_ID = 'seu-project-id'  # coloque aqui o ID do seu projeto Dialogflow
 DIALOGFLOW_LANGUAGE_CODE = 'pt-BR'
 SESSION_ID = 'current-user-id'
 
 def detect_intent_texts(project_id, session_id, text, language_code):
-    session_client = dialogflow.SessionsClient()
+    session_client = dialogflow.SessionsClient(credentials=credentials)
     session = session_client.session_path(project_id, session_id)
     text_input = dialogflow.types.TextInput(text=text, language_code=language_code)
     query_input = dialogflow.types.QueryInput(text=text_input)
