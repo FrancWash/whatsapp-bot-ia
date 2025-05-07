@@ -23,7 +23,7 @@ credentials = service_account.Credentials.from_service_account_info(
     scopes=["https://www.googleapis.com/auth/cloud-platform"]
 )
 
-DIALOGFLOW_PROJECT_ID = 'seu-project-id'  # coloque aqui o ID do seu projeto Dialogflow
+DIALOGFLOW_PROJECT_ID = 'botfarmacia-jfvi'  # coloque aqui o ID do seu projeto Dialogflow
 DIALOGFLOW_LANGUAGE_CODE = 'pt-BR'
 SESSION_ID = 'current-user-id'
 
