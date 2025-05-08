@@ -24,7 +24,7 @@ credentials = service_account.Credentials.from_service_account_info(
 
 print("### DEBUG: Credenciais carregadas com sucesso.")    
 
-DIALOGFLOW_PROJECT_ID = 'botfarmacia-jfvi'  # coloque aqui o ID do seu projeto Dialogflow
+DIALOGFLOW_PROJECT_ID = 'botfarmaciapt'  # coloque aqui o ID do seu projeto Dialogflow
 DIALOGFLOW_LANGUAGE_CODE = 'pt-BR'
 SESSION_ID = 'current-user-id'
 
