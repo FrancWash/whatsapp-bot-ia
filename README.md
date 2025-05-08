@@ -20,6 +20,8 @@ Este projeto é um **bot automatizado para WhatsApp**, desenvolvido em Python us
 
 ![Bot em ação](screenshot.png)
 
+![Demonstração do chatbot funcionando](projeto_whatsapp_interaction_otimizado.gif)
+
 ---
 
 ## 🚀 Tecnologias Utilizadas:
