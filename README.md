@@ -69,7 +69,7 @@ Franc Washington Vilela
 
 📩 E-mail: fvilela216@gmail.com  
 📲 WhatsApp: +55 11 97847-4481  
-🔗 [LinkedIn](https://www.linkedin.com/in/seu-perfil-aqui)
+🔗 [LinkedIn](https://www.linkedin.com/in/https://www.linkedin.com/in/franc-washington-vilela-12446016a/)
 
 
 ⚠️ Aviso
