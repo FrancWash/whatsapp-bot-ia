@@ -56,6 +56,7 @@ Este é apenas um exemplo de como o bot pode ser aplicado para resolver um probl
 - Flask
 - Twilio API
 - Dialogflow (Google Cloud)
+- Railway (Deploy na Nuvem)
 
 ---
 
