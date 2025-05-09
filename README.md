@@ -24,6 +24,32 @@ Projeto concluído e funcional: bot automatizado para WhatsApp, capaz de atender
 
 ---
 
+## 🏋️‍♂️ Case de Uso – Academia
+
+Imagine uma academia que recebe dezenas de mensagens no WhatsApp todos os dias com perguntas repetidas, como:
+
+- Quais são os horários das aulas?
+- Qual o valor dos planos?
+- Vocês têm aula de funcional?
+- Onde fica a academia?
+
+Com o **Bot WhatsApp com IA**, é possível automatizar todas essas respostas, atendendo clientes 24h por dia sem depender de um atendente humano.
+
+✅ O bot pode ser treinado para entender essas perguntas e responder automaticamente com as informações da academia.  
+✅ Quando necessário, o bot também pode redirecionar a conversa para um atendente humano.
+
+🎯 Benefícios para a academia:
+
+- Redução de perguntas repetidas para a equipe
+- Atendimento imediato, mesmo fora do horário comercial
+- Melhora na experiência do cliente
+- Mais tempo da equipe para focar em vendas presenciais ou atendimento avançado
+
+Este é apenas um exemplo de como o bot pode ser aplicado para resolver um problema real de atendimento no WhatsApp, agregando valor a negócios locais.
+
+
+---
+
 ## 🚀 Tecnologias Utilizadas:
 
 - Python
