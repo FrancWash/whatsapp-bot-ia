@@ -1,10 +1,10 @@
 # 🤖 Bot WhatsApp com IA (Dialogflow) 🚀
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/Status-Estável-brightgreen)
 ![License](https://img.shields.io/badge/License-Privado-lightgrey)
 
-Este projeto é um **bot automatizado para WhatsApp**, desenvolvido em Python usando:
+Projeto concluído e funcional: bot automatizado para WhatsApp, capaz de atender clientes automaticamente, responder dúvidas frequentes e personalizar respostas usando inteligência artificial.
 
 - **Flask** (para criar a API)
 - **Twilio** (para integração com WhatsApp)
@@ -57,17 +57,22 @@ ngrok http 5000
 
 6️⃣ Configure o webhook no Twilio com a URL + /whatsapp
 
-🛠️ Planos Futuros:
-Hospedar o bot na nuvem (Render)
+## 📈 Próximos Passos
 
-Melhorar as respostas usando LLMs mais avançados
-
-Criar painel administrativo para monitorar interações
+- Customização para diferentes nichos (academias, igrejas, comércio local e etc...)
+- Melhorias no NLP com modelos mais avançados
+- Criação de interface para configuração das respostas
+- Oferecer serviço como SaaS (Software as a Service)
 
 🙌 Autor
 Franc Washington Vilela
-🔗 LinkedIn
 
-⚠️ Atenção
-Este projeto é para fins educacionais e pode conter credenciais sensíveis. Use com cautela em produção.
+📩 E-mail: fvilela216@gmail.com  
+📲 WhatsApp: +55 11 97847-4481  
+🔗 [LinkedIn](https://www.linkedin.com/in/seu-perfil-aqui)
+
+
+⚠️ Aviso
+Este projeto foi desenvolvido com fins educacionais e demonstração. Para uso em produção, recomenda-se validação adicional de segurança e escalabilidade.
+
 
